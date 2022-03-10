@@ -1,0 +1,104 @@
+<!-- | Stable | Contribute | Support Server |
+|----------|---------|---------|
+| [![stable release](https://img.shields.io/github/release/tachiyomiorg/tachiyomi.svg?maxAge=3600&label=download)](https://github.com/tachiyomiorg/tachiyomi/releases) | [![Translation status](https://hosted.weblate.org/widgets/tachiyomi/-/svg-badge.svg)](https://hosted.weblate.org/engage/tachiyomi/?utm_source=widget) | [![Discord](https://img.shields.io/discord/349436576037732353.svg?label=discord&labelColor=7289da&color=2c2f33&style=flat)](https://discord.gg/tachiyomi) |
+
+
+# ![app icon](./.github/readme-images/app-icon.png)TachiyomiX
+TachiyomiX is a free and open source manga reader for Android 6.0 and above. Based on the original [Tachiyomi.](https://github.com/tachiyomiorg/tachiyomi)
+TachiyomiX offers some features of it's own, or take features from other forks like [J2K](https://github.com/Jays2Kings/tachiyomiJ2K) and [SY](https://github.com/jobobby04/TachiyomiSY).
+
+## Features
+
+Features include:
+* Online reading from a variety of sources
+* Local reading of downloaded content
+* A configurable reader with multiple viewers, reading directions and other settings.
+* Tracker support: [MyAnimeList](https://myanimelist.net/), [AniList](https://anilist.co/), [Kitsu](https://kitsu.io/), [Shikimori](https://shikimori.one), and [Bangumi](https://bgm.tv/)
+* Categories to organize your library
+* Automatic light and dark themes
+* Schedule updating your library for new chapters
+* Create backups locally to read offline or to your desired cloud service
+
+Features of this fork include:
+* All category tab (Shows all entries in the library, removed default tab)
+* Reader button customisation
+* Scrollable bottom toolbar in reader
+* Text based progress
+* Next/Previous global update interval time toast
+* Library update uses completion time instead of start time
+* Library update error notif toggle (Settings>library)
+* Toggle to prevent hiding reader menu on scroll (Settings>reader)
+* Backups names start with tachiyomiX
+* Automatic webtoon mode (Allowing the reader to switch to webtoon mode automatically when viewing one, taken from SY)
+* Page Layout (Combine 2 pages into a single one for a better tablet experince, taken from J2K)
+* Autoscroll
+* Page preload customization
+* Customize image cache size
+* Boost page, Retry all pages
+
+
+## Download
+Get the app from our [releases page](https://github.com/tachiyomiorg/tachiyomi/releases).
+
+If you want to try new features before they get to the stable release, you can download the preview version [here](https://github.com/tachiyomiorg/tachiyomi-preview/releases).
+
+## Issues, Feature Requests and Contributing
+
+Please make sure to read the full guidelines. Your issue may be closed without warning if you do not.
+
+<details><summary>Issues</summary>
+
+1. **Before reporting a new issue, take a look at the [FAQ](https://tachiyomi.org/help/faq/), the [changelog](https://github.com/tachiyomiorg/tachiyomi/releases) and the already opened [issues](https://github.com/tachiyomiorg/tachiyomi/issues).**
+2. If you are unsure, ask here: [![Discord](https://img.shields.io/discord/349436576037732353.svg)](https://discord.gg/tachiyomi)
+
+</details>
+
+<details><summary>Bugs</summary>
+
+* Include version (More → About → Version)
+ * If not latest, try updating, it may have already been solved
+ * Preview version is equal to the number of commits as seen in the main page
+* Include steps to reproduce (if not obvious from description)
+* Include screenshot (if needed)
+* If it could be device-dependent, try reproducing on another device (if possible)
+* Don't group unrelated requests into one issue
+
+DO: https://github.com/tachiyomiorg/tachiyomi/issues/24 https://github.com/tachiyomiorg/tachiyomi/issues/71
+
+DON'T: https://github.com/tachiyomiorg/tachiyomi/issues/75
+
+</details>
+
+<details><summary>Feature Requests</summary>
+
+* Write a detailed issue, explaining what it should do or how. Avoid writing just "like X app does"
+* Include screenshot (if needed)
+
+Source requests should be created at https://github.com/tachiyomiorg/tachiyomi-extensions, they do not belong in this repository.
+</details>
+-->
+
+## FAQ
+
+[See our website.](https://tachiyomi.org/)
+You can also reach out to us on [Discord](https://discord.gg/tachiyomi).
+
+## License
+
+    Copyright 2015 Javier Tomás
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+## Disclaimer
+
+The developer of this application does not have any affiliation with the content providers available.
