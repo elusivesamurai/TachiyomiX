@@ -1,10 +1,11 @@
-| Stable | Contribute | Support Server |
+<!-- | Stable | Contribute | Support Server |
 |----------|---------|---------|
 | [![stable release](https://img.shields.io/github/release/tachiyomiorg/tachiyomi.svg?maxAge=3600&label=download)](https://github.com/tachiyomiorg/tachiyomi/releases) | [![Translation status](https://hosted.weblate.org/widgets/tachiyomi/-/svg-badge.svg)](https://hosted.weblate.org/engage/tachiyomi/?utm_source=widget) | [![Discord](https://img.shields.io/discord/349436576037732353.svg?label=discord&labelColor=7289da&color=2c2f33&style=flat)](https://discord.gg/tachiyomi) |
 
 
-# ![app icon](./.github/readme-images/app-icon.png)Tachiyomi
-Tachiyomi is a free and open source manga reader for Android 6.0 and above.
+# ![app icon](./.github/readme-images/app-icon.png)TachiyomiX
+TachiyomiX is a free and open source manga reader for Android 6.0 and above. Based on the original [Tachiyomi.](https://github.com/tachiyomiorg/tachiyomi)
+TachiyomiX offers some features of it's own, or take features from other forks like [J2K](https://github.com/Jays2Kings/tachiyomiJ2K) and [SY](https://github.com/jobobby04/TachiyomiSY).
 
 ## Features
 
@@ -14,9 +15,27 @@ Features include:
 * A configurable reader with multiple viewers, reading directions and other settings.
 * Tracker support: [MyAnimeList](https://myanimelist.net/), [AniList](https://anilist.co/), [Kitsu](https://kitsu.io/), [Shikimori](https://shikimori.one), and [Bangumi](https://bgm.tv/)
 * Categories to organize your library
-* Light and dark themes
+* Automatic light and dark themes
 * Schedule updating your library for new chapters
 * Create backups locally to read offline or to your desired cloud service
+
+Features of this fork include:
+* All category tab (Shows all entries in the library, removed default tab)
+* Reader button customisation
+* Scrollable bottom toolbar in reader
+* Text based progress
+* Next/Previous global update interval time toast
+* Library update uses completion time instead of start time
+* Library update error notif toggle (Settings>library)
+* Toggle to prevent hiding reader menu on scroll (Settings>reader)
+* Backups names start with tachiyomiX
+* Automatic webtoon mode (Allowing the reader to switch to webtoon mode automatically when viewing one, taken from SY)
+* Page Layout (Combine 2 pages into a single one for a better tablet experince, taken from J2K)
+* Autoscroll
+* Page preload customization
+* Customize image cache size
+* Boost page, Retry all pages
+
 
 ## Download
 Get the app from our [releases page](https://github.com/tachiyomiorg/tachiyomi/releases).
@@ -57,16 +76,7 @@ DON'T: https://github.com/tachiyomiorg/tachiyomi/issues/75
 
 Source requests should be created at https://github.com/tachiyomiorg/tachiyomi-extensions, they do not belong in this repository.
 </details>
-
-<details><summary>Contributing</summary>
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md).
-</details>
-
-<details><summary>Code of Conduct</summary>
-
-See [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
-</details>
+-->
 
 ## FAQ
 
